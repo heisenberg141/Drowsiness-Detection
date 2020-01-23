@@ -1,5 +1,4 @@
 # Drowsiness Detection
- This project uses raspberry pi and picamera to find the alertness level of a driver
 Introduction
     This project is aimed towards solving the problem of detecting the tiredness level of
     drivers. If the driver is found to be drowsy, an alarm will be triggered to make him
