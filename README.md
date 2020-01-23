@@ -29,7 +29,7 @@ Install OpenCV, Dlib and Numpy on your raspberry pi. Download the repository and
 if you are using a USB web camera, you need to make a slight change in the code. on the line no. 80, set
 the usePicamera=False.
 
-## Run the following commandin the program directory:
+## Run the following command in the program directory:
 python pi_detect_drowsiness.py --cascade haarcascade_frontalface_default.xml --shape-predictor shape_predictor_68_face_landmarks.dat
 
 
