@@ -22,4 +22,14 @@ on python to detect eyes using HOG.
 Once the boundary of the eyes are found, we then find the aspect ratio, ie length/height of the eye and if
 it is below a certain threshold the program triggers an alarm
 
+## Setup
+*Note: knowledge about linux based operating systems and raspberry pi is assumed.*
+Install OpenCV, Dlib and Numpy on your raspberry pi. Download the repository and connect the picamera module
+if you are using a USB web camera, you need to make a slight change in the code. on the line no. 80, set
+the usePicamera=False.
+
+## Run the following commandin the program directory:
+python pi_detect_drowsiness.py --cascade haarcascade_frontalface_default.xml --shape-predictor shape_predictor_68_face_landmarks.dat
+
+
 
