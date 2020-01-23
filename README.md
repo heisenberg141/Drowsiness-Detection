@@ -30,7 +30,7 @@ if you are using a USB web camera, you need to make a slight change in the code.
 the usePicamera=False.
 
 ## Run the following command in the program directory:
-python pi_detect_drowsiness.py --cascade haarcascade_frontalface_default.xml --shape-predictor shape_predictor_68_face_landmarks.dat
+python drowsiness.py --cascade haarcascade_frontalface_default.xml --shape-predictor shape_predictor_68_face_landmarks.dat
 
 
 
