@@ -1,12 +1,12 @@
 # Drowsiness Detection
-##Introduction
+## Introduction
 This project is aimed towards solving the problem of detecting the tiredness level of
 drivers. If the driver is found to be drowsy, an alarm will be triggered to make him
 or her more attentive.
 This is done using the techniques like deep learning and computer
 vision for object detection. The project was implemented on a raspberry pi and a video camera.
 
-##Hardware Required:
+## Hardware Required:
 1. Raspberry Pi 3
 2. Picamera
 
