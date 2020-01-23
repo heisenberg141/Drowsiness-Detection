@@ -24,6 +24,7 @@ it is below a certain threshold the program triggers an alarm
 
 ## Setup
 *Note:The user should be comfortable using linux based operating systems and raspberry pi.*
+
 Install OpenCV, Dlib and Numpy on your raspberry pi. Download the repository and connect the picamera module
 if you are using a USB web camera, you need to make a slight change in the code. on the line no. 80, set
 the usePicamera=False.
