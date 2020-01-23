@@ -27,7 +27,7 @@ it is below a certain threshold the program triggers an alarm
 
 Install OpenCV, Dlib and Numpy on your raspberry pi. Download the repository and connect the picamera module
 if you are using a USB web camera, you need to make a slight change in the code. on the line no. 80, set
-the usePicamera=False.
+the usePicamera=False. You also need to download the .dat file for dlib facial landmarks.
 
 ## Run the following command in the program directory:
 python drowsiness.py --cascade haarcascade_frontalface_default.xml --shape-predictor shape_predictor_68_face_landmarks.dat
